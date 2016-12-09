@@ -1,3 +1,6 @@
+"""Tests str_to_arr to see if strings turn into arrays."""
+
+
 import str_to_arr
 
 assert str_to_arr.string_to_array("Robin Singh") == ["Robin", "Singh"])
