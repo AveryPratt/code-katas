@@ -1,4 +1,4 @@
-"""Returns number of lightsabers owned by a programmer"""
+"""Returns number of lightsabers owned by a programmer."""
 
 
 def howManyLightsabersDoYouOwn(programmer=""):

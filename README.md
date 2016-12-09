@@ -15,3 +15,18 @@ module: str_to_arr.py
 tests: tests_str_to_arr.py
 link: https://www.codewars.com/kata/57e76bc428d6fbc2d500036d
 
+FizzBuzz:
+module: fizzbuzz.py
+tests: tests_fizzbuzz.py
+link: https://www.codewars.com/kata/58485a43d750d23bad0000e6
+
+String Manipulation:
+module: string_manipulation.py
+tests: tests_string_manipulation.py
+link: https://www.codewars.com/kata/58305403aeb69a460b00019a
+
+Seasick:
+module: seasick.py
+tests: tests_seasick.py
+link: https://www.codewars.com/kata/57e90bcc97a0592126000064
+
