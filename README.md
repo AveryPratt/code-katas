@@ -15,3 +15,8 @@ module: str_to_arr.py
 tests: tests_str_to_arr.py
 link: https://www.codewars.com/kata/57e76bc428d6fbc2d500036d
 
+FizzBuzz:
+module: fizzbuzz.py
+tests: tests_fizzbuzz.py
+link: https://www.codewars.com/kata/58485a43d750d23bad0000e6
+
