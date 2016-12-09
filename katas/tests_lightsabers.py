@@ -1,4 +1,3 @@
-import pytest
 import lightsabers
 
 assert lightsabers.howManyLightsabersDoYouOwn() == 0
