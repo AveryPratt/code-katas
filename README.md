@@ -25,3 +25,8 @@ module: string_manipulation.py
 tests: tests_string_manipulation.py
 link: https://www.codewars.com/kata/58305403aeb69a460b00019a
 
+Seasick:
+module: seasick.py
+tests: tests_seasick.py
+link: https://www.codewars.com/kata/57e90bcc97a0592126000064
+
