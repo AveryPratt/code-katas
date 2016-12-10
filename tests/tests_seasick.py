@@ -1,6 +1,9 @@
 """Tests if snorkelers and boat-goers will throw up."""
 
 
+import pytest
+
+
 def test1():
     """That little wave can't hurt me :)'"""
     from seasick import sea_sick

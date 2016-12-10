@@ -1,6 +1,9 @@
 """Tests str_to_arr to see if strings turn into arrays."""
 
 
+import pytest
+
+
 def test1():
     """tests 2 word string"""
     from str_to_arr import string_to_array

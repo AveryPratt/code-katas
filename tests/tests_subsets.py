@@ -1,6 +1,9 @@
 """Tests est_subsets for the correct number of subsets in a unique set."""
 
 
+import pytest
+
+
 def test1():
     """tests for small subset"""
     from subsets import est_subsets

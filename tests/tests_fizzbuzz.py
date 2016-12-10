@@ -1,6 +1,9 @@
 """Tests fizz_buzz_cuckoo_clock to make sure the correct results are returned at various times."""
 
 
+import pytest
+
+
 def test1():
     """tests tick"""
     from fizzbuzz import fizz_buzz_cuckoo_clock

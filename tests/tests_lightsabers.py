@@ -1,6 +1,9 @@
 """Reveals the undercover jedi in the room"""
 
 
+import pytest
+
+
 def test1():
     """checks that if no one is selected, 0 lightsabers will be returned"""
     from lightsabers import how_many_lightsabers_do_you_own

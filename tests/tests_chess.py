@@ -1,5 +1,9 @@
 """Tests if travel_chessboard returns the correct number of moves"""
 
+
+import pytest
+
+
 def test():
     """iteratively runs several tests for travel_chessboard()"""
     from chess import travel_chessboard
