@@ -40,3 +40,7 @@ module: arrdiff.py
 tests: tests_arrdiff.py
 link: https://www.codewars.com/kata/523f5d21c841566fde000009
 
+Subsets:
+module: subsets.py
+tests: tests_subsets.py
+link: https://www.codewars.com/kata/584703d76f6cf6ffc6000275
