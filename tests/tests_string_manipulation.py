@@ -1,6 +1,9 @@
 """Tests string_manipulation to see if it manipulates strings properly."""
 
 
+import pytest
+
+
 def test1():
     """checks simple case"""
     from string_manipulation import reverse_and_mirror

@@ -1,6 +1,9 @@
 """Tests for arrdiff, which should be called listdiff"""
 
 
+import pytest
+
+
 def test1():
     """a was [1,2], b was [1], expected [2]"""
     from arrdiff import array_diff
