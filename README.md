@@ -35,3 +35,8 @@ module: chess.py
 tests: tests_chess.py
 link: https://www.codewars.com/kata/5845b080a87f768aaa00027c
 
+Array Difference:
+module: arrdiff.py
+tests: tests_arrdiff.py
+link: https://www.codewars.com/kata/523f5d21c841566fde000009
+
