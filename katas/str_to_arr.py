@@ -2,4 +2,5 @@
 
 
 def string_to_array(string):
+    """A string's worst nightmare"""
     return string.split(" ")

@@ -1,7 +1,8 @@
-"""Returns "Throw up" if waves are too choppy, or No Problem if they are calm.""" 
+"""Calculates the frequency of waves in the sea"""
 
 
 def sea_sick(sea):
+    """Returns "Throw up" if waves are too choppy, or "No Problem" if they are calm."""
     cur = sea[0]
     change = 0
     for char in sea:

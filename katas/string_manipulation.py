@@ -1,5 +1,6 @@
 """Returns a deformed concatination of two strings."""
 
 
-def reverseAndMirror(s1,s2):
-    return (s2[::-1] + "@@@" + s1[::-1] + s1).swapcase()
+def reverse_and_mirror(s_1, s_2):
+    """Puts some strings in a garbage disposal and returns result."""
+    return (s_2[::-1] + "@@@" + s_1[::-1] + s_1).swapcase()
