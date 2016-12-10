@@ -1,7 +1,6 @@
 """Tests est_subsets for the correct number of subsets in a unique set."""
 
 
-set PYTHONPATH="/../katas"
 import pytest
 
 
