@@ -3,7 +3,7 @@
 Multiply:
 - module: multiply.py
 - tests: tests_multiply.py
-- link:https://www.codewars.com/kata/50654ddff44f800200000004
+- link: https://www.codewars.com/kata/50654ddff44f800200000004
 
 How Many Lightsabers Do You Own?:
 - module: lightsabers.py
@@ -26,21 +26,21 @@ String Manipulation:
 - link: https://www.codewars.com/kata/58305403aeb69a460b00019a
 
 Seasick:
-module: seasick.py
-tests: tests_seasick.py
-link: https://www.codewars.com/kata/57e90bcc97a0592126000064
+- module: seasick.py
+- tests: tests_seasick.py
+- link: https://www.codewars.com/kata/57e90bcc97a0592126000064
 
 Chess:
-module: chess.py
-tests: tests_chess.py
-link: https://www.codewars.com/kata/5845b080a87f768aaa00027c
+- module: chess.py
+- tests: tests_chess.py
+- link: https://www.codewars.com/kata/5845b080a87f768aaa00027c
 
 Array Difference:
-module: arrdiff.py
-tests: tests_arrdiff.py
-link: https://www.codewars.com/kata/523f5d21c841566fde000009
+- module: arrdiff.py
+- tests: tests_arrdiff.py
+- link: https://www.codewars.com/kata/523f5d21c841566fde000009
 
 Subsets:
-module: subsets.py
-tests: tests_subsets.py
-link: https://www.codewars.com/kata/584703d76f6cf6ffc6000275
+- module: subsets.py
+- tests: tests_subsets.py
+- link: https://www.codewars.com/kata/584703d76f6cf6ffc6000275
