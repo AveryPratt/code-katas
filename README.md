@@ -30,3 +30,8 @@ module: seasick.py
 tests: tests_seasick.py
 link: https://www.codewars.com/kata/57e90bcc97a0592126000064
 
+Chess:
+module: chess.py
+tests: tests_chess.py
+link: https://www.codewars.com/kata/5845b080a87f768aaa00027c
+
