@@ -3,20 +3,8 @@
 
 import pytest
 
-
-def test1():
+@pytest.mark.parametrize("inp, result", [[0, "0.00"], [1, "1.00"], [2, "1.25"], [3, "1.39"]])
+def test1(inp, result):
     """check first number in series x = 1 / (1 + n * 3)"""
     from src.sum_terms import series_sum
-    assert series_sum(1) == "1.00"
-
-
-def test2():
-    """check second number in series x = 1 / (1 + n * 3)"""
-    from src.sum_terms import series_sum
-    assert series_sum(2) == "1.25"
-
-
-def test3():
-    """check third number in series x = 1 / (1 + n * 3)"""
-    from src.sum_terms import series_sum
-    assert series_sum(3) == "1.39"
+    assert series_sum(inp) == result
