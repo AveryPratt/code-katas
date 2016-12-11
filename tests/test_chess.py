@@ -6,7 +6,7 @@ import pytest
 
 def test():
     """iteratively runs several tests for travel_chessboard()"""
-    from chess import travel_chessboard
+    from src.chess import travel_chessboard
     tests = [
         "(1 1)(3 3)",
         "(2 3)(4 8)",
