@@ -49,3 +49,9 @@ Sum Series:
 - module: sum_terms.py
 - tests: test_sum_terms.py
 - link: https://www.codewars.com/kata/555eded1ad94b00403000071
+
+Sum by Factors:
+- module: sum_by_factors.py
+- tests: test_sum_by_factors.py
+- link: https://www.codewars.com/kata/54d496788776e49e6b00052f
+
