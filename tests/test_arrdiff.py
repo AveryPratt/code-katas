@@ -1,4 +1,4 @@
-"""Tests for arrdiff, which should be called listdiff"""
+"""Tests for arrdiff, which finds values in one array (list) but not the other"""
 
 
 import pytest
@@ -26,3 +26,15 @@ def test4():
     """a was [], b was [1,2], expected []"""
     from src.arrdiff import array_diff
     assert array_diff([], [1, 2]) == []
+
+
+def test5():
+    """a was [], b was [], expected []"""
+    from src.arrdiff import array_diff
+    assert array_diff([], []) == []
+
+
+def test6():
+    """a was [], b was [], expected []"""
+    from src.arrdiff import array_diff
+    assert array_diff([1, 2, 3], [1, 2, 3]) == []

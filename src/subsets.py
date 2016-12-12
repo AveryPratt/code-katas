@@ -1,8 +1,9 @@
-"""Solution to https://www.codewars.com/kata/584703d76f6cf6ffc6000275"""
+"""Returns the total possible number of subsets in a unique set of a list."""
 
 
 def est_subsets(arr):
-    """returns the total possible number of subsets in a unique set of a list."""
+    """Calculates subsets by finding the binary values of the set's length number of digits,
+    and subtracts one because of the 0th result.'"""
     arr = set(arr)
     return 2 ** len(arr) - 1
 

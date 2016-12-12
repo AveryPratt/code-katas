@@ -1,8 +1,10 @@
-"""Finds the total number of available paths between two spaces on a chessboard."""
+"""Finds the total number of available paths between two spaces
+on an 8 x 8 chessboard while only moving down and right."""
 
 
 def travel_chessboard(inp):
-    """player can only move down and right."""
+    """creates a mini-grid between the two spaces and calculates
+    all the possible paths between them."""
     d_x = 1 + int(inp[6]) - int(inp[1])
     d_y = 1 + int(inp[8]) - int(inp[3])
     grid = []

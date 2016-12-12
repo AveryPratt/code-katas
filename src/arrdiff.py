@@ -1,4 +1,4 @@
-"""This is called arrdiff just for consistency with the code wars problem."""
+"""Subtracts one list from the other to see which values are inconsistent."""
 
 
 def array_diff(lst_a, lst_b):

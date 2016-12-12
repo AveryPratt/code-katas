@@ -1,4 +1,4 @@
-"""Returns number of lightsabers owned by a programmer."""
+"""Returns number of lightsabers owned by a programmer. (Zach has 18, everyone else has 0)"""
 
 
 def how_many_lightsabers_do_you_own(programmer=""):

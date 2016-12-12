@@ -1,4 +1,4 @@
-"""A new revolutionary breakthrough in the field of mathematics."""
+"""Multiplies two numbers together."""
 
 
 def multiply(val_a, val_b):

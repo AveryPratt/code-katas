@@ -1,4 +1,4 @@
-"""Calculates the frequency of waves in the sea"""
+"""Calculates the frequency of waves in the sea."""
 
 
 def sea_sick(sea):

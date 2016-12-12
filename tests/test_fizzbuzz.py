@@ -1,4 +1,5 @@
-"""Tests fizz_buzz_cuckoo_clock to make sure the correct results are returned at various times."""
+"""Tests fizz_buzz_cuckoo_clock to make sure the correct results are returned at various times. 
+(only accepts time in the format: 'xx:xx')"""
 
 
 import pytest

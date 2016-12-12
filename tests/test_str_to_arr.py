@@ -36,6 +36,7 @@ def test4():
     assert string_to_array("1 2 3") == ["1", "2", "3"]
 
 
-
+def test5():
+    """tests an empty string"""
     from src.str_to_arr import string_to_array
     assert string_to_array("") == [""]
