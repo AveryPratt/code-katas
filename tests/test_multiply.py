@@ -1,4 +1,4 @@
-"""Deprecates the need for 3rd grade math class"""
+"""Tests a multiplication function."""
 
 
 import pytest
@@ -14,3 +14,9 @@ def test2():
     """checks that we can also multiply by non-integers"""
     from src.multiply import multiply
     assert multiply(2, 5.5) == 11
+
+
+def test3():
+    """checks that we can also multiply by negatives"""
+    from src.multiply import multiply
+    assert multiply(-2, 5.5) == -11

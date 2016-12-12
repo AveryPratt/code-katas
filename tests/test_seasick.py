@@ -1,11 +1,12 @@
-"""Tests if snorkelers and boat-goers will throw up."""
+"""Tests if wavey water (string input) will cause seasickness
+(return 'Throw Up', or 'No Problem')."""
 
 
 import pytest
 
 
 def test1():
-    """That little wave can't hurt me :)'"""
+    """Tests single wave. 0%"""
     from src.seasick import sea_sick
     assert sea_sick("~") == "No Problem"
 
@@ -22,7 +23,7 @@ def test3():
 
 
 def test4():
-    """No wave changes"""
+    """No wave changes. 0 %"""
     from src.seasick import sea_sick
     assert sea_sick("____") == "No Problem"
 
@@ -31,3 +32,9 @@ def test5():
     """9 wave changes out of 21 spaces: 43%"""
     from src.seasick import sea_sick
     assert sea_sick("_~~_~____~~~~~~~__~_~") == "Throw Up"
+
+
+def test6():
+    """same as test5 but with different 'waves'"""
+    from src.seasick import sea_sick
+    assert sea_sick("baababbbbaaaaaaabbaba") == "Throw Up"

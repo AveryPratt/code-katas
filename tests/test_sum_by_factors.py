@@ -1,4 +1,4 @@
-"""Tests for finding the sum of listed numbers for which each prime factor is a prime factor for"""
+"""Tests for finding the sum of listed numbers for which each prime factor is a prime factor for."""
 
 
 import pytest
@@ -26,3 +26,9 @@ def test4():
     """tests for a list containing a very large number"""
     from src.sum_by_factors import sum_for_list
     assert sum_for_list([2000000018]) == [[2, 2000000018], [1000000009, 2000000018]]
+
+
+def test5():
+    """tests for an empty list"""
+    from src.sum_by_factors import sum_for_list
+    assert sum_for_list([]) == []
