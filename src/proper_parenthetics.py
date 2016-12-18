@@ -1,4 +1,4 @@
-"""Contains a script to evaluate the completion of pairs of
+"""Contains a Stack class and a script to evaluate the completion of pairs of
 opening and closing parenthesis in a string."""
 
 
@@ -6,7 +6,7 @@ def get_parenthetics_status(input_string):
     """Returns a number determining the status of open/closed paranthesis
     in a string (1 for open, 0 for closed, -1 for broken)."""
     stack = Stack()
-    for char in input_string:
+    for char in input_string[::-1]:
         if char == ")" or char == "(":
             stack.push(char)
     count = 0
