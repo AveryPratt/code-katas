@@ -25,7 +25,7 @@ def sum_for_list(lst):
 def find_prime_factors(num):
     """Finds all the prime factors of a specific integer"""
     factors = []
-    for pos in range(1, math.floor(math.fabs(num) ** .5) + 1):
+    for pos in range(1, int(math.floor(math.fabs(num) ** .5) + 1)):
         if num % pos == 0:
             factors.append(pos)
             factors.append(math.fabs(int(num / pos)))
