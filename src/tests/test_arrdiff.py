@@ -1,7 +1,6 @@
 """Tests for arrdiff, which finds values in one array (list) but not the other"""
 
-import sys
-print(sys.path)
+
 import pytest
 
 

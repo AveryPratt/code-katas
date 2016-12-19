@@ -31,7 +31,7 @@ def find_prime_factors(num):
             factors.append(math.fabs(int(num / pos)))
     for ind in range(len(factors) - 1, 0, -1):
         factor = factors[ind]
-        for pos in range(2, math.floor(factor ** .5) + 1):
+        for pos in range(2, int(math.floor(factor ** .5) + 1)):
             if factor % pos == 0:
                 factors.pop(factors.index(factor))
                 break
