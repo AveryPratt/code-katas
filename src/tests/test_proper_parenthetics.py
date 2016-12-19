@@ -21,5 +21,5 @@ TEST_TABLE = [
 def test1(input_string, result):
     """Tests that get_parenthetics_status returns the correct number
     depending on the offset of pairs of parenthesis in the input string."""
-    from src.proper_parenthetics import get_parenthetics_status
+    from proper_parenthetics import get_parenthetics_status
     assert get_parenthetics_status(input_string) == result

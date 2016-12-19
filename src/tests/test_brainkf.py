@@ -1,6 +1,9 @@
 
 
 
+import pytest
+
+
 BRAINFK_TESTS = [
     [',+[-.,+]', 'Codewars' + chr(255), 'Codewars'],
     [',[.[-],]', 'Codewars' + chr(0), 'Codewars'],
@@ -8,13 +11,10 @@ BRAINFK_TESTS = [
 ]
 
 
-import pytest
-
-
 @pytest.mark.parametrize("code, input, result", BRAINFK_TESTS)
 def test1(code, input, result):
     """Tests code commands against input to see if desired result is achieved."""
-    from src.brainfk import brain_luck
+    from brainfk import brain_luck
     assert brain_luck(code, input) == result
 
 
