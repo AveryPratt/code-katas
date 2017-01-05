@@ -8,17 +8,25 @@ def brain_luck(code, txt):
     skip_forward = False
     skip_backward = False
     inc = 1
-    for cmd in range(0, len(code), inc):
+    cmd = 0
+    nest = 0
+    while cmd in range(0, len(code)):
         if code[cmd] == "[":
             if skip_backward:
-                skip_backward = False
-                inc = 1
+                nest -= 1
+                if nest == 0:
+                    skip_backward = False
+                    inc = 1
             elif cells[pointer] == 0:
+                nest += 1
                 skip_forward = True
         elif code[cmd] == "]":
             if skip_forward:
-                skip_forward = False
+                nest -= 1
+                if nest == 0:
+                    skip_forward = False
             elif cells[pointer] != 0:
+                nest += 1
                 skip_backward = True
                 inc = -1
         elif not skip_forward and not skip_backward:
@@ -42,6 +50,7 @@ def brain_luck(code, txt):
             elif code[cmd] == ',':
                 cells[pointer] = ord(txt[0])
                 txt = txt[1:]
+        cmd += inc
     for ind in range(len(cells)):
         cells[ind] = chr(cells[ind])
     return final
