@@ -6,7 +6,14 @@ def count_Kprimes(k, start, end):
             primes.append(int(last))
         pos = []
         mults = [2] * k
-        
+        while mults[-1] ** k <= last:
+            tmp = 0
+            while tmp <= last:
+                mults[0] = nxt_prime(mults[0])
+                tmp = comp_mults(mults)
+            pos.append(tmp)
+            mults[1] = nxt_prime(mults[1])
+            mults[0] = mults[1]
         last = min(pos)
         for i in range(len(pos)):
             if last == pos[i]:
