@@ -1,3 +1,6 @@
+"""Solution for snail kata."""
+
+
 def snail(array):
     fin = []
     n = len(array)
