@@ -1,4 +1,4 @@
-"""Tests for k-primes function"""
+"""Tests for k-primes kata."""
 
 
 import pytest
