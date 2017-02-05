@@ -11,8 +11,6 @@ def decodeBitsAdvanced(bits):
     ups = filter(lambda d: d != "", ups)
     for idx in enumerate(ups):
         ups[idx[0]] = len(idx[1])
-    print("Downs: " + str(downs))
-    print("Ups: " + str(ups))
     if downs:
         if min(downs) < float(max(downs)) / 2:
             unit = float(min(downs) + max(downs)) / 4
@@ -26,9 +24,6 @@ def decodeBitsAdvanced(bits):
                     unit = d_unit
             else:
                 unit = d_unit
-        print unit
-    else:
-        print("no message")
     for idx in enumerate(downs):
         if float(idx[1]) / unit < 2:
             downs[idx[0]] = '.'

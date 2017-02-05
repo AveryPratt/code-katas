@@ -20,9 +20,9 @@ def test_bits_to_morse(bits, morse):
     assert decodeBitsAdvanced(bits) == morse
 
 
-# @pytest.mark.parametrize("bits, result", REAL_TESTS)
-# def test_bits_to_result(bits, result):
-#     from morse_code_3 import decodeBitsAdvanced
-#     from morse_code_1 import decodeMorse
-#     morse = decodeBitsAdvanced(bits)
-#     assert decodeMorse(morse) == result
+@pytest.mark.parametrize("bits, result", REAL_TESTS)
+def test_bits_to_result(bits, result):
+    from morse_code_3 import decodeBitsAdvanced
+    from morse_code_1 import decodeMorse
+    morse = decodeBitsAdvanced(bits)
+    assert decodeMorse(morse) == result
