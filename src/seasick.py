@@ -9,6 +9,6 @@ def sea_sick(sea):
         if char is not cur:
             cur = char
             change += 1
-    if change / len(sea) > .2:
+    if change / float(len(sea)) > .2:
         return "Throw Up"
     return "No Problem"

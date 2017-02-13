@@ -55,3 +55,12 @@ Sum by Factors:
 - tests: test_sum_by_factors.py
 - link: https://www.codewars.com/kata/54d496788776e49e6b00052f
 
+Proper Parenthetics:
+- module: proper_parenthetics.py
+- tests: test_proper_parenthetics.py
+- link: *not on codewars
+
+Sort Cards:
+- module: sort_cards.py
+- tests: test_sort_cards.py
+- link: https://www.codewars.com/kata/56f399b59821793533000683
