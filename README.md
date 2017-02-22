@@ -69,3 +69,9 @@ String Pyramid:
 - module: string_pyramid.py
 - tests: test_string_pyramid.py
 - link: https://www.codewars.com/kata/5797d1a9c38ec2de1f00017b
+
+Forbes Top 40:
+- module: forbes.py
+- tests: test_forbes.py
+- data: forbes.json
+(This kata did not come from codewars)
